@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sell?characterEncoding=utf-8&SSL=false
+    username: root
+    password: root
+eureka:
+  client:
+    service-url:
+      defaultZooe: http://localhost:8761/eureka/
